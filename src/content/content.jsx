@@ -43,8 +43,8 @@ const currentYear = new Date().getFullYear();
 
 export const infos = {
   name: "Alves Advocacia",
-  email: "contato", // Email desejado pelo cliente
-  domain: "alvesjuridico.adv.br", // Sem "www"
+  email: "alves.juridico", // Email desejado pelo cliente
+  domain: "outlook.com", // Sem "www"
   phone: {
     ddd: "45",
     firstPart: "99102", // Apenas os 5 primeiros números (incluindo o 9)
@@ -123,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento e assessoria em todo o Paraná",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -380,65 +380,64 @@ const content = {
         "Compromisso e excelência há mais de 12 anos no direito público.",
       paragraph: (
         <div>
-          Minha trajetória na advocacia começou na{" "}
-          <strong>UDC Cataratas, no Paraná</strong>, onde me formei em{" "}
-          <strong>2014</strong>. Desde a graduação, sempre tive um olhar
-          diferenciado para áreas muitas vezes subestimadas na advocacia, como
-          <strong>Direito Constitucional, Administrativo e Eleitoral.</strong>
+          A trajetória na advocacia do Dr. Dhiego Alves teve início na UDC
+          Cataratas, no Paraná, onde se formou em 2014. Desde a graduação,
+          sempre demonstrou um olhar diferenciado para áreas muitas vezes
+          subestimadas no meio jurídico, como Direito Constitucional,
+          Administrativo e Eleitoral.
           <br />
           Enquanto muitos colegas se dedicavam ao Direito Civil, Penal e
-          Trabalhista, eu enxergava no Constitucional e no Administrativo as
+          Trabalhista, ele enxergava no Constitucional e no Administrativo as
           bases que sustentam todo o ordenamento jurídico.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha trajetória na advocacia começou na UDC Cataratas, no Paraná,
-          onde me formei em 2014. Desde a graduação, sempre tive um olhar
-          diferenciado para áreas muitas vezes subestimadas na advocacia, como
-          Direito Constitucional, Administrativo e Eleitoral.
+          A trajetória na advocacia do Dr. Dhiego Alves teve início na UDC
+          Cataratas, no Paraná, onde se formou em 2014. Desde a graduação,
+          sempre demonstrou um olhar diferenciado para áreas muitas vezes
+          subestimadas no meio jurídico, como Direito Constitucional,
+          Administrativo e Eleitoral.
           <br />
           <br />
           Enquanto muitos colegas se dedicavam ao Direito Civil, Penal e
-          Trabalhista, eu enxergava no Constitucional e no Administrativo as
+          Trabalhista, ele enxergava no Constitucional e no Administrativo as
           bases que sustentam todo o ordenamento jurídico.
           <br />
           <br />
-          Durante a faculdade, aprofundei meus estudos no Direito Eleitoral,
-          compreendendo sua importância para a organização política e social do
-          país. Foi nessa época que decidi prestar concurso para o Tribunal
+          Durante a faculdade, aprofundou seus estudos no Direito Eleitoral,
+          compreendendo sua relevância para a organização política e social do
+          país. Foi nesse período que decidiu prestar concurso para o Tribunal
           Regional Eleitoral do Paraná (TRE-PR).
           <br />
           <br />
-          Obtive uma excelente colocação, mas não fui nomeado. No entanto, essa
-          experiência me proporcionou um conhecimento aprofundado da estrutura e
-          funcionamento da Justiça Eleitoral, algo que posteriormente se tornou
-          um diferencial na minha carreira.
+          Obteve uma excelente colocação, mas não foi nomeado. No entanto, essa
+          experiência lhe proporcionou um conhecimento aprofundado sobre a
+          estrutura e o funcionamento da Justiça Eleitoral, algo que
+          posteriormente se tornou um diferencial em sua carreira.
           <br />
           <br />
           Ao concluir a graduação, já possuía uma rede de contatos sólida no
-          meio jurídico e político, o que me permitiu ingressar no mercado com
-          segurança.
+          meio jurídico e político, o que lhe permitiu ingressar no mercado com
+          segurança. Desde então, dedicou sua carreira à advocacia pública e
+          eleitoral, assessorando políticos, gestores e agentes públicos em
+          diversas demandas, como prestação de contas, cassações e defesas
+          eleitorais.
           <br />
           <br />
-          Desde então, dediquei minha carreira à advocacia pública e eleitoral,
-          assessorando políticos, gestores e agentes públicos em diversas
-          demandas, como prestação de contas, cassações e defesas eleitorais.
+          Atualmente, o Dr. Dhiego Alves atua em mais de 40 municípios do
+          Paraná, acompanhando processos estratégicos e auxiliando na construção
+          de mandatos sólidos e juridicamente seguros.
           <br />
           <br />
-          Hoje, atuo em mais de 40 municípios do Paraná, acompanhando processos
-          estratégicos e auxiliando na construção de mandatos sólidos e
-          juridicamente seguros.
-          <br />
-          <br />
-          Minha experiência abrange três eleições municipais e duas eleições
-          gerais, o que me permitiu acompanhar de perto os desafios e
+          Sua experiência abrange três eleições municipais e duas eleições
+          gerais, o que lhe permitiu acompanhar de perto os desafios e
           transformações do cenário político ao longo dos anos.
           <br />
           <br />
-          Mais do que advogar, meu compromisso é garantir que a atuação política
-          e administrativa seja feita dentro da legalidade, sempre pautada pela
+          Mais do que advogar, seu compromisso é garantir que a atuação política
+          e administrativa ocorra dentro da legalidade, sempre pautada pela
           transparência e pela defesa da justiça.
           <br />
           <br />
