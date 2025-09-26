@@ -24,33 +24,22 @@ export default function Steps() {
     <SectionArea className="bg-bgSectionDark" paddingtop={true}>
       {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+        {/* <MotionDivDownToUp className="w-[100%] flex justify-center">
           <div
             style={{
               backgroundImage: `url(${content.texts.steps.img})`,
             }}
-            className="shadow-custom-opacity shadow-darker/25 relative desktop1:bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
-          >
-            {/* <img
-              alt="Imagem de efeito pontilhado"
-              src={imgPoints}
-              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-            ></img> */}
-          </div>
-          {/* <img
-            src={content.texts.steps.imgSteps}
-            alt="Imagem de pessoa de férias em um passeio de barco em Arraial do Cabo"
-            className=""
-          /> */}
-        </MotionDivDownToUp>
-        <div className="desktop1:w-[550px] desktop2:w-[570px]">
+            className="shadow-custom-opacity shadow-darker/0 relative desktop1:bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl hidden"
+          ></div>
+        </MotionDivDownToUp> */}
+        <div className="desktop1:w-full">
           <SectionHeader
-            className="hidden text-center desktop1:flex"
+            className="hidden text-center desktop1:flex justify-center w-full "
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color=""
-            type="article"
+            type=""
           />
           <SectionHeader
             className="text-center desktop1:hidden"
@@ -61,7 +50,7 @@ export default function Steps() {
             type=""
           />
 
-          <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
+          <div className="flex flex-wrap desktop1:flex-nowrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
             <HowItWorksCard
               number={content.texts.steps.cards.card1.stepNumber}
               title={content.texts.steps.cards.card1.cardTitle}
