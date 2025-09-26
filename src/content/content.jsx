@@ -471,7 +471,8 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title: "Como funciona nosso atendimento?",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
         "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
