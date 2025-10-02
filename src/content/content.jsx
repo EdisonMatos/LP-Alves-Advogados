@@ -53,9 +53,12 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Carneiro Leão, nº 563</p>
-      <p>Sala 1003, Centro, Maringá - PR</p>
-      <p>CEP 87014-010</p>
+      <p>Avenida Prudente de Moraes, nº 601,</p>
+      <p>
+        Zona 07 – Maringá - PR,
+        <br />
+        CEP: 87020-010
+      </p>
     </div>
   ),
   expediente: (
